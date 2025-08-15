@@ -1,0 +1,17 @@
+# # 6
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+months_of_year = (
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+)
+# user details
+User_name= input("Enter your student\'s Name: ")
+User_gender= input("Enter your student\'s Gender: ")
+User_course= input("Enter your Student\'s course track: ")
+# 
+User_month= int(input("Enter your  student\'s current Month number(1-12): "))
+User_day= int(input("Enter your  student\'s current day number(1-7): "))
+# 
+day=days_of_week[User_day-1]
+month=months_of_year[User_month-1]
+print(f"Name\tGender\tcourse\tMonth\tDay\n{User_name}\t{User_gender}\t{User_course}\t{day}\t{month}")

@@ -14,6 +14,7 @@ User_fav.add(fruits3)
 User_fav.add(fruits4)
 User_fav.add(fruits5)
 print(User_fav)
+
 # Another approach
 # fruits1 = input("Enter your five favorite fruit with spaces: ")
 # User_fav = set(fruits1.split())

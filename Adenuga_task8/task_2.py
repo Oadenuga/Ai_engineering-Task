@@ -17,6 +17,7 @@
 # Another approach
 #  Federal government scholarship Key
 print("Federal Government Scholarship Eligibility Checker")
+
 candidate_name= input("Enter you name: ")
 citizenship =input("Enter your country?:")
 Enrollment =(input("Are you a full-time undergraduate student in a recognized Nigerian university? (True/false): "))
@@ -29,6 +30,7 @@ subject3=input(f"Enter your grade in {Subject_combo[3]}: ").upper()
 subject4=input(f"Enter your grade in {Subject_combo[1]}: ").upper()
 subject5=input(f"Enter your grade in {Subject_combo[4]}: ").upper()
 Qualification= ((subject1== 'A') or (subject1== 'B')) and ((subject2== 'A') or  (subject2== 'B')) and ((subject3== 'A') or (subject3== 'B')) and ((subject4== 'A') or (subject4== 'B')) and ((subject5== 'A')or (subject5== 'B'))
+
 print(Qualification)
 Eligibility = (Enrollment.lower()== 'true' and other_scholarship.lower() == 'false' and citizenship.title() =='Nigeria' and Qualification == True)
 print(Eligibility)
